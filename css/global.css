@@ -1,0 +1,59 @@
+.header {
+    height: 70px;
+    background-color: #353535;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+.navigation {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.topnav {
+    float: right;
+    display: flex;
+    margin-top: -15px;
+}
+
+.shoppingcart {
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+
+}
+
+.shoppingcart:hover {
+    fill: white;
+}
+
+.vl {
+    background-color: black;
+    width: 3px;
+    height: 85px;
+}
+
+.topnav a {
+    text-align: center;
+    color: black;
+    font-family: 'Palanquin Dark';
+    font-size: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.topnav img:hover {
+    color: rgb(255, 255, 255);
+
+}
