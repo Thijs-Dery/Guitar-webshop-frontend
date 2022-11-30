@@ -49,11 +49,21 @@ html {
 }
 
 .topnav a:hover {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 
 }
 
-.topnav img:hover {
-    color: rgb(255, 255, 255);
+.topnav a:active {
+    color: #0F8787;
+}
 
+.shoppingcart:active {
+    fill: #0F8787;
+}
+
+#active {
+    text-decoration: underline;
+    text-decoration-color: #0F8787;
+    color: white;
+    fill: white;
 }
