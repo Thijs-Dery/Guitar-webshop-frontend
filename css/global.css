@@ -9,9 +9,10 @@ html {
 }
 
 .navigation {
-    margin-left: 18%;
-    margin-right: 18%;
+    width: 64%;
+    margin: 0 auto;
 }
+
 
 .topnav {
     float: right;
@@ -23,7 +24,6 @@ html {
     height: 40px;
     width: 40px;
     margin-top: 15px;
-
 }
 
 .shoppingcart:hover {
@@ -49,11 +49,49 @@ html {
 }
 
 .topnav a:hover {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 
 }
 
-.topnav img:hover {
-    color: rgb(255, 255, 255);
+.topnav a:active {
+    color: #0F8787;
+}
 
+.shoppingcart:active {
+    fill: #0F8787;
+}
+
+#active {
+    text-decoration: underline;
+    text-decoration-color: #0F8787;
+    color: white;
+    fill: white;
+}
+
+@media only screen and (max-width: 1859px) {
+    .navigation {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .navigation {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1488px) {
+    .navigation {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1322px) {
+    .navigation {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    
 }
